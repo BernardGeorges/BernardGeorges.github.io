@@ -1,0 +1,124 @@
+{
+    "Intro": {
+        "content":[
+        "I'm a curious young engineer who lives for learning, exploring, and cracking puzzles. Fueled by how technology can upgrade daily life, I hold a Master's in Computer Engineering (specializing in AI & Data Science) and love building apps and websites that bring clarity and real impact to projects."
+        ,"If you're building something meaningful, exploring new ideas, or just want to connect. I’m always open to interesting conversations and collaborations. Feel free to reach out."
+    ]}
+    ,
+    "Currently":{
+        "title": "Currently I am:",
+        "content":["Looking for a Junior/Internship oportunity", "Learning German", "Experimenting with AI"]
+    },
+    "Projects":{
+        "title": "Favourite Projects",
+        "content":[
+            {"title":"Pairwise Difference Learning", "tech_used":["Python", "Pandas", "NumPy", "scikit-learn", "Excel"], "context":"Project used for my thesis. Originally forked from Karim Belaid and optimized by me. During this project I managed to improve the models F1 score by an average of 0.06. The multiple improvements are overall better than the original pdll across the multiple models.", "github":"https://github.com/BernardGeorges/pdll/"}
+            ,{"title":"Smart Carpet","tech_used":["MTTQ", "RasberyPy", "Sensors", "Python"],"context":"Collaborated with two developers to build a smart hardware–software system featuring a pressure-sensitive carpet and a command center with temperature, humidity sensors, and a display. The system detected pressure patterns to reveal a door lock combination, displayed upcoming bus schedules, provided weather alerts, and warned users of incorrect PIN entries.","github":"https://github.com/BernardGeorges/Sketching-with-hardware"}
+            ,{"title":"University Projects","tech_used":["Java", "C", "Go", "SQL and NoSQL DBs", "Haskell"],"context":"All my university projects in a single repository. From Bachelors and Masters.","github":""}
+
+        ]
+    },
+    "Experiences":[
+        {
+            "Company":"Premium Minds",
+            "Position":"Full-Stack Developer Intern",
+            "Duration":"06 2023 - 09 2023",
+            "Description": ["Collaborated within a five-member Agile full-stack team to rebuild, from scratch, a company-wide internal time-logging system and its underlying architecture using Java, PostgreSQL, Next.js, and TypeScript. We delivered a fast, scalable, and intuitive platform that significantly improved usability and received strong positive employee feedback.", "I translated defined requirements into robust technical solutions, independently researched and implemented architectural components, and clearly presented design decisions to ensure team alignment while strengthening communication, accountability, and professional collaboration skills.", "As this was my first experience in the job market, it became a valuable learning journey with many ups and downs. It significantly strengthened my sense of accountability and understanding of effective teamwork. Navigating challenges independently required me to learn new frameworks and thoroughly research optimal solutions. This experience deepened my appreciation for responsibility, ownership, and decision-making, motivating me to work harder and take pride in the solutions I delivered."]
+        }
+    ],
+    "Education": [
+        {
+            "Institution": "University of Minho",
+            "Level": ["Bachelor's", "Master's"],
+            "Degree": "Computer Engineering",
+            "Duration": ["2020-2023", "2023-2025"],
+            "Description": 
+            [["Bachelors in Computer Engineering during which I developed a special fondness for Software Development, Artificial Intelligence and Data Science."],
+            ["Master's Focused on Artificial Intelligence and Data Science.", "AI: IoT, Multi-Agent Aplication, Intelligent Sistems", "Data Science: Data Mining, Databases NoSQL and Big Data"]]
+        }
+    ],
+    "Other_Activities":[
+        {
+            "Association":"IEEE UMinho Student Branch",
+            "Duration": ["2023-2024","2024-2025"],
+            "Role": ["Member", "Vice-Chair of Program Commitee"],
+            "Description": [["Started as a Member of the IEEE Program Committee, where I was responsible for planning and scheduling activities such as workshops, technical talks, and hands-on sessions."
+            ],[ "Due to my performance and sense of responsibility, I was appointed Vice-Chair of the same committee. During my term, we significantly increased the number of activities delivered to the public, organizing 6 additional internal workshops, 5 company visits, and 3 crash courses compared to the previous year.", 
+            "Throughout this experience, I developed strong time management skills while balancing committee responsibilities with my Master’s thesis. I also strengthened my leadership, motivation, and communication abilities, regularly coordinating team members, providing constructive feedback, and fostering engagement within the committee."]]
+        },
+        {
+            "Association": "Coder Dojo",
+            "Duration": ["2023-2024"],
+            "Role": ["Mentor"],
+            "Description": [["At CoderDojo, I mentored a young student at the start of his programming journey, introducing him to fundamental programming concepts, logical thinking, and Python. We developed small projects by breaking down complex problems into manageable components, reinforcing structured problem-solving skills. This experience enhanced my ability to explain technical concepts clearly and adapt my communication to different learning levels."]]        
+        },
+        {
+            "Association": "Workshop Speaker",
+            "Duration": ["2026","2026"],
+            "Role":["GitHub", "Python"],
+            "Description":[["I was invited by IEEE UM Student Branch to be a speaker in a GitHub workshop. I explained the basics of github, from creating and forking a repositorie to conflict correction."],["As my second workshop I got to present Python focused for Data Analysis. I presented the start of data cleaning, ploting and analysis."]]
+        },
+        {
+            "Association": "ENEI",
+            "Duration": ["2023"],
+            "Role":["Visitor"],
+            "Description":[["I visited the National Meating of Computer Engineer in Aveiro. It was a great experience where I got to be part of multiple workshops such as OutSystems programing, How to solve a problem, etc."]]
+        }
+    ],
+    "About":{
+        "Me":{
+            "title":"How I got into Computer Engineering",
+            "content":["I’m a Computer Engineering graduate with a lifelong passion for technology and science. Growing up with both of my parents as computer engineering professors, I was introduced to the world of programming and problem-solving at an early age. At just 12 years old, I began attending some of my mother’s university classes, where I discovered how much I enjoyed problem-solving thinking and building solutions through code.",
+                        "As I got closer to university, I enrolled in programming courses where I developed small games using Scratch and other high-level programming languages. Seeing my ideas come to life on the screen was a defining moment for me as it transformed programming from something interesting into something pratical that I truly loved. That experience sparked a deep curiosity and a strong drive to continuously learn, improve and build pratical applications."
+                        ,"Since then, I’ve always envisioned myself working in Computer Engineering, building innovative solutions and tackling complex problems. I’m motivated by challenges, excited by emerging technologies, and constantly looking for opportunities to grow as a developer, engineer and person."
+                    ]
+        },
+        "Hobbies":{
+            "title":"Hobbies and Extracurriculars",
+            "content":["Traveling is one of my greatest passions. I enjoy discovering new cultures, tasting different cuisines, exploring historical landmarks, and creating meaningful experiences while meating new friends. My love for travel is deeply connected to my interest in history. I believe that understanding the past helps us better interpret the present and shape the future.",
+                    "This curiosity naturally extends to cooking. I enjoy recreating dishes from around the world. Experimenting with new flavors and techniques allows me to bring a piece of my travels into my everyday life.",
+                    "To balance my appreciation for good food, I am also passionate about sports. I particularly enjoy team sports and previously played on a basketball team. I value the camaraderie, shared goals, and sense of unity that come from working together toward a common objective.",
+                    "Finally, I enjoy gaming, especially board games. I appreciate the social interaction and friendly competition they encourage. It’s a great way to spend quality time with friends while engaging in strategic thinking and conversation. Video games also allow me to stay connected with friends who live far away, giving us a way to share experiences even when we cannot meet in person."
+                    ]
+        }
+    },
+    "Skills":[
+        {
+            "title": "Programming Languages",
+            "content": [
+                { "skill": "Python", "proficiency": 5 },
+                { "skill": "JavaScript", "proficiency": 5 },
+                { "skill": "Java", "proficiency": 5 },
+
+                { "skill": "HTML & CSS", "proficiency": 4 },
+
+                { "skill": "SQL", "proficiency": 3 },
+                { "skill": "C", "proficiency": 3 },
+
+                { "skill": "Go", "proficiency": 2 },
+                { "skill": "Haskell", "proficiency": 2 }
+            ]
+        },
+        {
+            "title": "Frameworks & Tools",
+            "content": [
+                { "skill": "PyTorch", "proficiency": 5 },
+                { "skill": "TensorFlow", "proficiency": 5 },
+                { "skill": "Scikit-learn", "proficiency": 5 },
+                { "skill": "Pandas", "proficiency": 5 },
+                { "skill": "NumPy", "proficiency": 5 },
+                { "skill": "GitHub", "proficiency": 5 },
+
+                { "skill": "Next.js", "proficiency": 4 },
+                { "skill": "RasberryPI", "proficiency":4},
+
+                { "skill": "Django", "proficiency": 3 },
+                { "skill": "Docker", "proficiency": 3 },
+
+                { "skill": "Kubernetes", "proficiency": 2 },
+                { "skill": "AWS", "proficiency": 2},
+                { "skill": "Power BI", "proficiency": 2 }
+            ]
+        }
+    ]
+}
