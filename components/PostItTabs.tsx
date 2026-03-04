@@ -10,9 +10,9 @@ import {
 type PostItExperienceProps = {
   company: string;
   level: string[];
-  position: string;
+  position?: string;
   duration: string[];
-  description: string[];
+  description: string[][];
   titleColor: string;
   contentColor: string;
 };
@@ -32,16 +32,26 @@ export function PostItTabs({
       value={lvl}
       className="text-gray-500 text-lg data-[state=active]:!text-gray-900"
     >
-      {lvl}
+      <div className="flex w-full justify-around items-center">
+        <div className="text-xl ">
+          {lvl}
+        </div>
+        <div className="italic text-lg">
+          {duration[idx]}
+        </div>
+      </div>
     </TabsTrigger>
   ));
 
   const content = description.map((desc, idx) => (
     <TabsContent key={level[idx]} value={level[idx]} className="text-lg">
-      {desc}
+      <ul className="list-disc list-inside text-gray-900">
+        {desc.map((point, idx) => (
+          <li key={"exp"+{idx}} className="mt-2">{point}</li>
+        ))}
+      </ul>
     </TabsContent>
   ));
-
   return (
     <AccordionItem value={`${company}-${position}`} className="border-none">
       <AccordionTrigger
@@ -57,7 +67,7 @@ export function PostItTabs({
       >
         <div className="flex w-full justify-between items-center">
           <div className="font-bold text-xl">
-            {position} @ {company}
+            {position == undefined ? `${company}` : `${position} @ ${company}`}
           </div>
         </div>
       </AccordionTrigger>

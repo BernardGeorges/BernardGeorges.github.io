@@ -21,7 +21,11 @@ export default function Experiences() {
     const other_activities = (
         <Accordion  type="single" collapsible  className="flex flex-col justify-evenly">
         {data.Other_Activities.map((activity) => {
-            return <PostItAccordion key={activity.Name + activity.Duration} company={activity.Name} position={activity.Role} duration={activity.Duration} description={activity.Description} titleColor="bg-sticknote_blue_title" contentColor="bg-sticknote_blue_body"/>;
+            if(activity.Role.length > 1){
+                return <PostItTabs key={activity.Association + activity.Duration} company={activity.Association} level={activity.Role} duration={activity.Duration} description={activity.Description} titleColor="bg-sticknote_blue_title" contentColor="bg-sticknote_blue_body"/>;
+            }else{
+                return <PostItAccordion key={activity.Association + activity.Duration} company={activity.Association} position={activity.Role[0]} duration={activity.Duration[0]} description={activity.Description[0]} titleColor="bg-sticknote_blue_title" contentColor="bg-sticknote_blue_body"/>;
+            }
         })}
         </Accordion>
     );

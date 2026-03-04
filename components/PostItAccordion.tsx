@@ -12,7 +12,7 @@ type PostItExperienceProps = {
   company: string;
   position: string;
   duration: string;
-  description: string;
+  description: string[];
   titleColor: string;
   contentColor: string;
 };
@@ -59,7 +59,9 @@ export function PostItAccordion({
             leading-relaxed
           `}
         >
-          {description}
+          <ul className="list-disc list-inside text-gray-900">
+            {description.map((desc,idx) => {return(<li key={idx} className="mt-2">{desc}</li>)})}
+          </ul>
         </AccordionContent>
 
       </AccordionItem>

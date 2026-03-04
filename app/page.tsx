@@ -11,7 +11,7 @@ export default function Home() {
   var previous_color = -1;
   var projects = (
   <div className="flex justify-evenly mb-15">
-    {data.Projects.map((project) => {
+    {data.Projects.content.map((project) => {
       var color = Math.floor(Math.random() * 3);
       while (color === previous_color) {
         color = Math.floor(Math.random() * 3);
@@ -21,7 +21,7 @@ export default function Home() {
         <PostIt
           key={project.title}
           title={project.title}
-          content={project.content}
+          content={project.tech_used}
           titleColor={`bg-sticknote_${colors[color]}_title`}
           contentColor={`bg-sticknote_${colors[color]}_body`}
           context={project.context}
@@ -37,7 +37,7 @@ export default function Home() {
     <div className="flex flex-col p-5 bg-notepad justify-center mb-3 text-2xl leading-relaxed">
       <div>
           {data.Intro.content.map((item) => {
-            return(<p className="text-gray-900 mt-1">{item}</p>);
+            return(<p key={item} className="text-gray-900 mt-1">{item}</p>);
           })}
         <div className="flex">
           <p className="text-gray-900">
@@ -83,13 +83,13 @@ export default function Home() {
         <strong> {data.Currently.title}</strong>
       </p>
       <ul className="list-disc list-inside text-gray-900  mt-2">
-        {data.Currently.list.map((item, idx) => {
+        {data.Currently.content.map((item, idx) => {
           return (<li key={"Currently"+idx}> {item} </li>);
         })}
       </ul>
     </div>
     <div className="flex justify-start my-7">
-      <p className="text-white-900 text-3xl  italic pl-3 pr-2">Projects</p>
+      <p className="text-white-900 text-3xl  italic pl-3 pr-2">{data.Projects.title}</p>
       <a href="https://github.com/BernardGeorges" target="_blank">
         <img src="/github-logo.svg" className="w-7 h-7 dark:invert" alt="Personal Github" />
       </a>
